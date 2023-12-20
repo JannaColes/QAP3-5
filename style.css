@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-nature-background_23-2148941599.jpg?w=1060&t=st=1686609570~exp=1686610170~hmac=c1c04d4d93febea9f09d95c6bdce32644a1bf33d1497328c76db25245935bb3e');
+  }
+  .mainbox {
+    width: 900px;
+    margin: 20px;
+    height: 1000px; /* will be removed once page is complete */
+    background-color: white;
+    text-align: center;
+    float: center;
+  }
+  
+  .topbar {
+    width: 900px;
+    height: 30px;
+    background-color: gray;
+    text-align: left;
+    position: center;
+    float: left;
+  }
+
+  .whitetext {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+  .blacktext {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+  }
+
+  .containerbox1 {
+    width: 850px;
+    margin: 0 auto;
+   
+  }
+
+  .littlebox {
+    width: 100px;
+    height: 120px;
+    margin: 3px;
+    float: left;
+  }
+
+  #whitebox {
+    background-color: white;
+    float: left;
+  }
+
+  #greenbox {
+    background-color: rgb(79,119,90);
+    padding-top: 95px;
+    padding-left: 6px;
+    color: aliceblue;
+    text-align: left;
+    text-decoration: wavy;
+    float: left;
+  }
+
+  #picturebox {
+    background-color: white;
+    float: left;
+  }
+
+  a {
+    color: white;
+    font-weight: 300;
+    text-decoration: wavy;
+  }
+
+  a:visited {
+    color: azure;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: aqua;
+    font-size: medium;
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .containerbox2 {
+    width: 900px;
+    height: 550px;
+    background-image: url("Images/Background.jpg");
+  }
+
+  .toppicbox {
+    width: 860px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.textbox {
+    color:black;
+    width: 240px;
+    height: 100%;
+    float: left;
+    text-align:left;
+}
+
+.clickme {
+    display: inline-block;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(79,119,90);
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: aqua;
+  }
+  
+  .button:active {
+    background-color: aqua;
+  }
+
+  .multiple-image-box-container {
+    width: 650x;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #multiple-image-box {
+    width: 150px;
+    height: 190px;
+
+   padding-right: 5px;
+   float: left;
+  }
+  
+  .lowpicbox {
+    width: 860px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.social-links a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.bottombar {
+    width: 900px;
+    height: 40px;
+    background-color: gray;
+    text-align: left;
+    position: center;
+    float: left;
+}
+
+.topofpage a {
+    text-align: right;
+    color:rgb(101, 20, 178);
+}
